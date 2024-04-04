@@ -1,0 +1,47 @@
+$text-color: rgb(24, 6, 1);
+$secondary-color: #5D001E;
+$tertiary-color: #E3AFBC;
+$fourth-color: #9A1750;
+$fourth-color: #EE4C7C;
+$body-color: #E3E2DF;
+
+$sans-serif: "Arial", "Helvetica", sans-serif;
+$heading-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+$margin-0: 0;
+$margin-1: 0.25rem;
+$margin-2: 0.5rem;
+$margin-3: 1rem;
+$margin-4: 2rem;
+$margin-5: 3rem;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font: {
+      family: $sans-serif;
+      weight: 300;
+    }
+    color: $body-color;
+  }
+
+.hero {
+    min-height: 40vh;
+  
+    background: {
+      color: $tertiary-color;
+      size: cover;
+      position: center;
+    }
+}
+
+
+img{
+    width: 200px;
+  }
+
+

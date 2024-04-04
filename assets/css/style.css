@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 300;
+  color: #e3e2df;
+}
+
+.hero {
+  min-height: 40vh;
+  background-color: #e3afbc;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  width: 200px;
+}
