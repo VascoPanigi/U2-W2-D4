@@ -15,6 +15,7 @@ $margin-4: 2rem;
 $margin-5: 3rem;
 
 
+
 *,
 *::before,
 *::after {
@@ -22,11 +23,13 @@ $margin-5: 3rem;
 }
 
 body {
+    width: 95%;
+    margin-inline: auto;
     font: {
       family: $sans-serif;
       weight: 300;
     }
-    color: $body-color;
+    color: $text-color;
   }
 
 .hero {
@@ -40,8 +43,60 @@ body {
 }
 
 
+.navbar{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ 
+ 
+ >.logo>img{
+    max-width: 5rem;
+ }
+ >ul{
+    display: flex;
+column-gap: 20px; 
+}
+}
+
 img{
-    width: 200px;
-  }
+    max-width: 200px;
+}
 
 
+.headline{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-block: 1rem;
+
+>h1{
+    font: {
+        weight: 600;
+        size: 3rem;
+    }
+    letter-spacing: 1px;
+        
+}
+>.button-container>.button{
+    background-color: $secondary-color;
+    border: 1px solid transparent;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 2rem 3rem;
+}
+}
+
+
+.hero{
+    display: flex;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+}
